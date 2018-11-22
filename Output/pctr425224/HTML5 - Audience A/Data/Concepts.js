@@ -1,1 +1,0 @@
-define({'ConditionsBlockElementsTables':[14,15,13,12],'Images':[10,11,7,9],'LinksLists':[5,4,3],});

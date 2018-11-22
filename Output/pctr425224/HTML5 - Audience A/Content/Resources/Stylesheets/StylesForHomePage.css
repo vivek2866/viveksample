@@ -1,7 +1,5 @@
 /*<meta />*/
 
-@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
-
 /* Home Page General Styles*/
 
 body
@@ -326,52 +324,10 @@ div.footer > div.outer-row
 
 /* Mad Cap proxy/editor assigned styles */
 
-MadCap|searchBarProxy
-{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 0;
-	float: none;
-	width: 50%;
-}
-
-MadCap|topicToolbarProxy
-{
-	float: none;
-}
-
 p.TOC2
 {
 	margin-left: 20px;
 	display: none;
-}
-
-MadCap|menuProxy.menu1
-{
-	mc-toc-depth: 1;
-	mc-context-sensitive: True;
-}
-
-MadCap|menuProxy.menu2
-{
-	mc-toc-depth: 1;
-	mc-context-sensitive: True;
-}
-
-MadCap|slideshow
-{
-	border-style: none;
-	box-shadow: none;
-}
-
-MadCap|slideshowCaption
-{
-	background: none;
-	color: #000000;
-	padding: 0;
-	padding-top: 0;
 }
 
 html.HomePage
@@ -774,11 +730,6 @@ div.HomeVideoSection > div:nth-child(3)
 
 @media only screen and (max-width: 767px)
 {
-	MadCap|searchBarProxy.homeSearchBar
-	{
-		width: 100%;
-	}
-
 	.left-content
 	{
 		margin-bottom: 60px;

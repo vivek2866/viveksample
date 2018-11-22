@@ -1,7 +1,5 @@
 /*<meta />*/
 
-@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
-
 body
 {
 	color: #404040;
@@ -174,90 +172,6 @@ li
 {
 	orphans: 2;
 	widows: 2;
-}
-
-MadCap|breadcrumbsProxy
-{
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	mc-breadcrumbs-prefix: 'You are here: ';
-}
-
-MadCap|dropDown
-{
-	margin-bottom: 6px;
-	margin-top: 6px;
-	mc-closed-image: url('../Images/DropDownClosed.png');
-	mc-open-image: url('../Images/DropDownOpen.png');
-}
-
-MadCap|dropDown.SecondLevel
-{
-	margin-left: 10px;
-	mc-closed-image: url('../Images/DropDownClosedSecondLevel.png');
-	mc-open-image: url('../Images/DropDownOpenSecondLevel.png');
-}
-
-MadCap|dropDownBody
-{
-	border-bottom: solid 1px #bed230;
-}
-
-MadCap|dropDownBody.Final
-{
-	border-bottom: 0px;
-}
-
-MadCap|dropDownHead
-{
-	
-}
-
-MadCap|dropDownHotspot
-{
-	color: #404040;
-	font-size: 0.9em;
-	font-weight: bold;
-}
-
-MadCap|dropDownHotspot:hover
-{
-	color: #BED230;
-}
-
-MadCap|popup
-{
-	color: #2D8DCC;
-}
-
-MadCap|popup:focus
-{
-	color: #2D8DCC;
-}
-
-MadCap|popup:hover
-{
-	color: #2D8DCC;
-}
-
-MadCap|popupHead
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
-MadCap|xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	mc-format: '{para}';
-	text-decoration: underline;
-}
-
-MadCap|xref:hover
-{
-	color: #BED230;
 }
 
 ol
